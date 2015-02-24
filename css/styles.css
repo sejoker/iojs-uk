@@ -1,24 +1,26 @@
+/* START NORMALIZE */
 h1, h2, h3, p {
     font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
     font-weight: 100;
 }
 
 h1 {
-    font-size: 3rem;
-}
-
-h2 {
     font-size: 2.5rem;
 }
 
-h3 {
+h2 {
     font-size: 2rem;
 }
 
-p {
+h3 {
     font-size: 1.5rem;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
+/* START HELPERS */
 .full-width {
     width: 100%;
     margin-left: auto;
@@ -31,4 +33,19 @@ p {
     -moz-transition: 0.7s ease-in-out;
     -o-transition: 0.7s ease-in-out;
     transition: 0.7s ease-in-out;
+}
+
+.text-white-color {
+    color: #FFFFFF;
+}
+
+.text-yellow-color {
+    color: #F7DF31;
+}
+
+/* START SECTIONS */
+.header-row {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #666666;
 }
