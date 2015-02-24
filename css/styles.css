@@ -72,15 +72,16 @@ p {
 }
 
 .join-row a {
-    background-color: #34435E;
+    margin-top: 2rem;
+    background-color: #F7DF31;
     border: 5px solid #FFFFFF;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 1.3rem;
     line-height: 1.3rem;
     font-weight: lighter;
 }
 
 .join-row a:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #A3B88A;
+    color: #FFFFFF;
 }
