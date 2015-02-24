@@ -18,6 +18,7 @@ h3 {
 
 p {
     font-size: 1.3rem;
+    font-weight: 200;
 }
 
 /* START HELPERS */
@@ -54,4 +55,17 @@ p {
     margin-top: 3rem;
     margin-bottom: 3rem;
     background-color: #FFFFFF;
+}
+
+.team-row .photo-container {
+    text-align: center;
+}
+
+.team-row .photo-container img {
+    border-radius: 50%;
+    max-width: 10rem;
+}
+
+.team-row .photo-container img:hover {
+    border-radius: 0;
 }
