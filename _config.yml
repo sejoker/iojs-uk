@@ -40,7 +40,7 @@ baseurl: "" # does not include hostname
 relative_permalinks: false
 
 # Outputting
-permalink:     date
+permalink:     /blog/:year/:month/:day/:title
 paginate_path: /page:num
 timezone:      Europe/Kiev
 
