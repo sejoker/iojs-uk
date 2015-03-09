@@ -1,0 +1,12 @@
+ghaiklor:
+  name: 'Євген Обрезков'
+  bio: 'Розробляю та підтримую ua.iojs.org. JavaScript розробник 4+ років. Один із організаторів NodeSchool. На даний момент живу та працюю Кіровограді.'
+  avatar: 'http://gravatar.com/avatar/be299f224394ab488001c9cab12eae2c?s=200'
+  twitter: ghaiklor
+  github: ghaiklor
+sejoker:
+  name: 'Євген Сафронов'
+  bio: 'Розробник, ентузіаст nodeschool та nodebots. Захоплююсь роботами. Живу та працюю в Берліні.'
+  avatar: 'https://s.gravatar.com/avatar/d1cdc4d4e5ef5ba0fff6a3ff42d15934?s=200'
+  twitter: sejoker
+  github: sejoker
