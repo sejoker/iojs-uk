@@ -41,7 +41,8 @@ relative_permalinks: false
 
 # Outputting
 permalink:     /blog/:year/:month/:day/:title
-paginate_path: /page:num
+paginate:      5
+paginate_path: /blog/page-:num
 timezone:      Europe/Kiev
 
 quiet:    false
