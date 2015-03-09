@@ -3,31 +3,29 @@ layout: site
 title: Our Team
 ---
 <section class="row full-width text-center team-row">
-    <div class="large-12 medium-12 small-12 columns">
+    <div class="large-12 medium-12 small-12 large-centered medium-centered small-centered columns">
         <h2>Наша команда</h2>
 
-        <div class="row">
-            {% for member in site.data.team %}
-            <div class="large-4 medium-4 small-12 columns">
-                <div class="photo-container">
-                    <img class="transition" src="{{ member.avatar }}" alt="{{ member.name }}"/>
-                </div>
-
-                <h3>{{ member.name }}</h3>
-
-                <p>{{ member.bio }}</p>
+        {% for member in site.data.team %}
+        <div class="large-4 medium-6 small-12 columns">
+            <div class="photo-container">
+                <img class="transition" src="{{ member.avatar }}" alt="{{ member.name }}"/>
             </div>
-            {% endfor %}
 
-            <div class="large-4 medium-4 small-12 columns">
-                <div class="photo-container">
-                    <img class="transition" src="http://placehold.it/200x200" alt="Бажаєте приєднатись?"/>
-                </div>
+            <h3>{{ member.name }}</h3>
 
-                <h3>Бажаєте приєднатись?</h3>
+            <p>{{ member.bio }}</p>
+        </div>
+        {% endfor %}
 
-                <p>Створіть тікет на <a target="_blank" href="https://github.com/iojs/iojs-uk/issues">GitHub</a></p>
+        <div class="large-4 medium-6 small-12 columns">
+            <div class="photo-container">
+                <img class="transition" src="http://placehold.it/200x200" alt="Бажаєте приєднатись?"/>
             </div>
+
+            <h3>Бажаєте приєднатись?</h3>
+
+            <p>Створіть тікет на <a target="_blank" href="https://github.com/iojs/iojs-uk/issues">GitHub</a></p>
         </div>
     </div>
 </section>
