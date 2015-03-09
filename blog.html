@@ -1,3 +1,6 @@
+---
+title: Blog Test
+---
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -5,12 +8,6 @@
     <title></title>
 </head>
 <body>
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-</ul>
+{% include all-posts.html %}
 </body>
 </html>
