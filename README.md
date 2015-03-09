@@ -1,5 +1,7 @@
 # ua.iojs.org
 
+[![Build Status](https://travis-ci.org/iojs/iojs-uk.svg?branch=gh-pages)](https://travis-ci.org/iojs/iojs-uk)
+
 Jekyll is, at its core, a text transformation engine.
 The concept behind the system is this: you give it text written in your favorite markup language, be that Markdown, Textile, or just plain HTML, and it churns that through a layout or series of layout files.
 Throughout that process you can tweak how you want the site URLs to look, what data gets displayed in the layout, and more.
